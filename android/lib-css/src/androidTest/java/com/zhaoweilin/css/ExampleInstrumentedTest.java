@@ -1,4 +1,4 @@
-package com.ctrip.androidcss;
+package com.zhaoweilin.css;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ctrip.androidcss", appContext.getPackageName());
+        Assert.assertEquals("com.ctrip.css.test", appContext.getPackageName());
     }
 }

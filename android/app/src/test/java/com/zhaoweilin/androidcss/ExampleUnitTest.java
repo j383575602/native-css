@@ -1,4 +1,4 @@
-package com.ctrip.androidcss;
+package com.zhaoweilin.androidcss;
 
 import org.junit.Test;
 
